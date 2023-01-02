@@ -1,0 +1,37 @@
+{
+    "Div": {
+        "screenshot": ".images\\div-screenshot.png",
+        "source": "https://www.centris.ca/fr/propriete~a-vendre~saint-jerome?view=Thumbnail&uc=1",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*[@id=\"divMainResult\"]/div[1]/div/div[1]/div[1]"
+    },
+    "ListItem": {
+        "screenshot": ".images\\listitem-screenshot.png",
+        "source": "https://www.centris.ca/fr/propriete~a-vendre~saint-lin-laurentides?view=Thumbnail",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*/div/div/div/div[@id=\"divWrapperPager\"]/ul/li[3]"
+    },
+    "NextButton": {
+        "screenshot": ".images\\nextbutton-screenshot.png",
+        "source": "https://www.centris.ca/fr/propriete~a-vendre~saint-lin-laurentides?view=Thumbnail",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*/div/div/div/div[@id=\"divWrapperPager\"]/ul/li[4]"
+    },
+    "Paragraph": {
+        "screenshot": ".images\\paragraph-screenshot.png",
+        "source": "https://www.centris.ca/fr/propriete~a-vendre~saint-jerome?view=Thumbnail",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*[@id=\"nav-results\"]/div/div[3]/p/span[2]"
+    },
+    "Span": {
+        "screenshot": ".images\\span-screenshot.png",
+        "source": "https://www.centris.ca/fr/propriete~a-vendre~saint-lin-laurentides?view=Thumbnail",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*[@id=\"divMainResult\"]/div[11]/div/div[2]/a/div[2]/span[1]"
+    }
+}

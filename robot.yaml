@@ -1,0 +1,11 @@
+tasks:
+  Bot-housing:
+    robotTaskName: Bot-housing
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
